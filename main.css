@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bebas-neue');
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family:'Montserrat', sans-serif;
+    overflow-x: hidden;
+    /* background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234e4e4e' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E"); */
+}
+
+
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+
+} 
+
+#institucion{
+    font-size: 28px;
+    font-weight: bold;
+    color: #3f3f3f;
+    padding: 15px 15px; 
+   
+    /* background-color: #EEEEEE; */
+  
+}
+.nav-item :hover {
+    background-color: #fff;
+}
+
+.carousel-inner {
+    max-height:35rem;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    #img {
+       
+        
+        width: 100%;
+        /* align-self: center; */
+       
+    } 
+
+    #historia {
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: justify;
+      color: black;
+      font-size: 18px;
+    }
+
+    #software {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #3f3f3f;
+        padding: 15px 15px;
+        display: flex;
+        /* background-color: #EEEEEE; */
+    }   
+
+    .noticia {
+        width: 75%;
+        margin: 10px auto;
+        color: #fff;
+        padding: 15px;
+      }
+
+      #texto {
+        text-align: justifY;
+        color: black;
+        font-size: 25px;
+
+      }
+
+      #imagenes {
+          width: 300px;
+          height: 280px;
+          display: flex;
+          ;
+
+      }
+      .img1 :hover {
+        width: 400px;
+        height: 380px;
+        transition: .6s;
+      }
+      
+
+     .carousel-item {
+        height: 1200px; 
+     }
+
+     
+
+      /* ============responsive========= */
+
+      @media (max-width: 768px){
+
+        #imagenes {
+            width: 280px !important;
+            height: 260px !important;
+        }
+
+      }
+
+      @media (max-width: 992px){
+
+        #imagenes {
+            width: 280px !important;
+            height: 260px !important;
+        }
+        /* #id {
+            width: 932px;
+            height: 700px;
+        } */
+      }
+
+
+
+    
